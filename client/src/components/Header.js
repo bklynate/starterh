@@ -11,7 +11,33 @@ class Header extends Component {
       case false:
         return <a href="/auth/google">Log in with Google</a>;
       default:
-        return <a href="/api/logout">Logout</a>;
+      return (
+        <div>
+          <a
+            href="#"
+            data-activates="mobile-demo"
+            className="button-collapse"
+          >
+            <i className="material-icons">menu</i>
+          </a>
+          <ul className="right hide-on-med-and-down">
+            <li>
+              <a href="/api/logout">Logout</a>
+            </li>
+            <li>
+              <Link to="/dashboard">ProMe Dashboard</Link>
+            </li>
+          </ul>
+          <ul className="side-nav" id="mobile-demo">
+            <li>
+              <a href="/api/logout">Logout</a>
+            </li>
+            <li>
+              <Link to="/dashboard">ProMe Dashboard</Link>
+            </li>
+          </ul>
+        </div>
+      );
     }
   }
   render() {

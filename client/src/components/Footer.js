@@ -5,8 +5,8 @@ const Footer = () => (
     <div className="container-fluid">
       <div className="row">
         <div className="col l6 s12">
-          <h5 className="white-text">ProMeHealth</h5>
-          <p className="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut placeat quam atque labore dignissimos unde laboriosam sit veniam quos illo quia error ipsum pariatur, reiciendis, voluptate similique qui aliquam. Sequi.</p>
+          <h5 className="white-text footer-white-text">ProMeHealth</h5>
+          <p className="grey-text text-lighten-4 footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut placeat quam atque labore dignissimos unde laboriosam sit veniam quos illo quia error ipsum pariatur, reiciendis, voluptate similique qui aliquam. Sequi.</p>
 
 
         </div>
@@ -32,7 +32,7 @@ const Footer = () => (
     </div>
     <div className="footer-copyright">
       <div className="container-fluid">
-      Built with <i className="far fa-heart"></i> by <a className="orange-text text-lighten-3" href="http://materializecss.com">Designate</a>
+      Built with <i className="far fa-heart"></i> by <a className="orange-text text-lighten-3" href="http://natequash.herokuapp.com">Designate</a>
       </div>
     </div>
   </footer>
