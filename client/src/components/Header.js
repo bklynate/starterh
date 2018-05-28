@@ -21,7 +21,7 @@ class Header extends Component {
           <Link
             to={this.props.auth ? '/' : '/'}
             className="left brand-logo">
-            App Name Here
+            ProMeHealth
           </Link>
           <ul className="right header-right">
             <li className="header-right-content">{this.renderContent()}</li>

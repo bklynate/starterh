@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+.brand-logo {
+  margin-left: 5%;
+  font-weight: 900;
+  letter-spacing: -0.1rem; }
+
+.header-right {
+  margin-right: 5%; }
+
+.header-right > li > a {
+  font-size: 1.6rem;
+  font-weight: 100;
+  letter-spacing: -0.13rem; }
+
+.section {
+  margin-right: 5rem;
+  margin-left: 5rem; }
+
+.page-footer {
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.page-footer > .footer-copyright {
+  margin-left: -5rem;
+  margin-right: -5rem;
+  padding-left: 5rem; }
