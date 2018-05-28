@@ -12,7 +12,7 @@ module.exports = app => {
     '/auth/google/callback',
     passport.authenticate('google'),
     (request, response) => {
-      response.redirect('/searchAnime');
+      response.redirect('/dashboard');
     }
   );
 

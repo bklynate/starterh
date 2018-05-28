@@ -10,13 +10,12 @@ const LandingPage = () => (
           <h5 className="header col s12 light">A personable health record that empowers you to take your health into your own hands.</h5>
         </div>
         <div className="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" className="btn-large waves-effect waves-light orange">Get Started</a>
+          <a href="/auth/google" id="download-button" className="btn-large waves-effect waves-light orange">Get Started</a>
         </div>
         <br/>
 
       </div>
     </div>
-
 
     <div className="container-fluid">
       <div className="section">

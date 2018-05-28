@@ -6,7 +6,8 @@ import * as actions from './../actions';
 
 import Header from './Header';
 import Footer from './Footer';
-import LandingPage from './LandingPage'
+import Dashboard from './Dashboard';
+import LandingPage from './LandingPage';
 
 const NotFound404 = () => <h2>PAGE NOT FOUND</h2>;
 
@@ -24,6 +25,7 @@ class App extends Component {
               <div className="container-fluid">
                 <Switch>
                   <Route exact path="/" component={LandingPage} />
+                  <PrivateRoute exact path='/dashboard' component={Dashboard} />
                   <Route exact path="*" component={NotFound404} />
                 </Switch>
               </div>
